@@ -13,16 +13,31 @@
                     background-size: cover;
                     left: 100px;
         }
-        h1
-        {color: white;text-align: center;}
-        h3{
+        .di{
             color: white;
             text-align: center;
         }
-        </style>
+        .time{
+            color: white;
+            margin: 50px 200px;
+            font-size: 25px;
+			background-color: #550000;
+            background-size: 50px 10px;
+            border-radius: 30px 30px 30px 30px;
+            opacity: 0.5;
+        }
+        </style>    
 </head>
 <body>
-    <h1>欢迎来到我的主页</h1>
-    <h3>今天也要加油呀！</h3>
+    <div class="di">
+        <h1>欢迎来到我的主页</h1>
+        <h3>今天也要加油呀！</h3>
+    </div>
+
+<div id="datetime" class="time">
+    <script>
+        setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+    </script>
+</div>
 </body>
 </html>
