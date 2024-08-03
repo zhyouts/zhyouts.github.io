@@ -50,11 +50,18 @@ nav ul li a {
     border-radius: 5px;  
 }  
 .img{
-    width: 100%;
-    height: 100%;
+    width: 15%;
+    height: 15%;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    /* top: 320px;
+    position: absolute; */
+
 }
 section {  
     margin-top: 20px;  
