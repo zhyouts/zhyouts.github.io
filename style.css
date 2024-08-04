@@ -47,7 +47,8 @@ nav ul li a {
     margin-top: 20px;  
     background-color: black;  
     opacity: 0.7;  
-    border-radius: 5px;  
+    border-radius: 5px; 
+    font-family: "SimSun", serif;   
 }  
 .img{
     width: 15%;
@@ -62,6 +63,11 @@ nav ul li a {
     /* top: 320px;
     position: absolute; */
 
+}
+.ceshi{
+    font: 100px "SimSun", serif;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de
 }
 section {  
     margin-top: 20px;  
